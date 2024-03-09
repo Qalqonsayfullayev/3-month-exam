@@ -117,22 +117,249 @@ body header .header__img2 {
   body header .header__img2 {
     display: block;
     width: 25px;
-    margin-left: 450px;
+    margin-left: 300px;
     margin-top: 0;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 411px) {
   body header {
     padding: 20px 40px;
   }
   body header .header__img2 {
     display: block;
     width: 25px;
-    margin-left: 350px;
+    margin-left: 200px;
     margin-top: 0;
     margin-right: 40px;
   }
 }
 body main {
   padding: 0 160px;
+}
+@media (max-width: 600px) {
+  body main main {
+    padding: 0;
+  }
+}
+body main .pricing {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+body main .pricing .pricing__h4 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-top: 50px;
+}
+body main .pricing .pricing__h2 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+body main .pricing .pricing__p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+@media (max-width: 720px) {
+  body main .pricing .pricing__h4 {
+    font-size: 12px;
+  }
+  body main .pricing .pricing__h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 27px;
+    height: 50px;
+    width: 270px;
+    margin-left: 50px;
+  }
+  body main .pricing .pricing__p {
+    font-size: 6px;
+  }
+  body main .pricing-father {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 100px;
+  }
+  body main .pricing-father .pricing-child {
+    width: 300px;
+    height: 456px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2509803922);
+    background: #ffffff;
+    text-align: center;
+  }
+  body main .pricing-father .pricing-child2 {
+    width: 300px;
+    height: 456px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2509803922);
+    background: #02897a;
+    text-align: center;
+  }
+  body main .pricing-father .pricing-child__h4 {
+    width: 53px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #22343d;
+    margin-left: 120px;
+  }
+  body main .pricing-father .pricing-child__p {
+    width: 174px;
+    height: 40px;
+    top: 72px;
+    left: 73px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #22343d;
+    margin-left: 80px;
+  }
+  body main .pricing-father .pricing-child__div {
+    display: flex;
+  }
+  body main .pricing-father .pricing-child__h3 {
+    width: 50px;
+    height: 100px;
+    font-family: Poppins;
+    font-size: 76px;
+    font-weight: 700;
+    color: #02897a;
+    margin-top: 0;
+    margin-left: 80px;
+  }
+  body main .pricing-father .pricing-child_h3 {
+    width: 50px;
+    height: 100px;
+    font-family: Poppins;
+    font-size: 76px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0;
+    margin-left: 80px;
+  }
+  body main .pricing-father .pricing-child__dad .pricing-child_dad {
+    margin-left: 30px;
+  }
+  body main .pricing-father .pricing-child__dad .pricing-child_dad .pricing-child_p2 {
+    width: 96px;
+    height: 19px;
+    top: 185px;
+    left: 141px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: end;
+    color: #afafaf;
+    margin-top: -20px;
+    margin-left: 100px;
+  }
+  body main .pricing-father .pricing-child__dad h3 {
+    margin-left: 0px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #02897a;
+  }
+  body main .pricing-father .pricing-child__dad .h3 {
+    margin-left: 0px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+  }
+  body main .pricing-father .pricing-child__dad .pricing-child__p2 {
+    width: 96px;
+    height: 19px;
+    top: 185px;
+    left: 141px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.1000000015px;
+    text-align: left;
+    color: #afafaf;
+    margin-top: -20px;
+  }
+  body main .pricing-father .pricing-long__p {
+    width: 134px;
+    height: 22px;
+    top: 244px;
+    left: 93px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: #22343d;
+    margin-left: 80px;
+  }
+  body main .pricing-father .p {
+    margin-top: -70px;
+  }
+  body main .pricing-father .pricing__btn {
+    width: 139px;
+    height: 44px;
+    top: 380px;
+    left: 91px;
+    padding: 11px, 19px, 11px, 18px;
+    border-radius: 8px;
+    border: 0;
+    background: #02897a;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  body main .pricing-father .pricing__btn2 {
+    width: 139px;
+    height: 44px;
+    top: 380px;
+    left: 91px;
+    padding: 11px, 19px, 11px, 18px;
+    border-radius: 8px;
+    border: 0;
+    color: #02897a;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
