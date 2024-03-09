@@ -1,1 +1,138 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #1f2e35;
+}
+body header {
+  display: flex;
+  padding: 20px 160px;
+}
+body header .header__logo {
+  width: 40px;
+  height: 36.36px;
+  top: 19px;
+  left: 146px;
+}
+body header .header__h3 {
+  width: 122px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+body header .header__nav {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+  margin-left: 180px;
+}
+body header .header__link {
+  text-decoration: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+body header .header__link:hover {
+  color: #02897a;
+}
+body header .header__btn {
+  width: 132px;
+  height: 43px;
+  top: 19px;
+  left: 964px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+  background: #1f2e35;
+  margin-left: 25px;
+}
+body header .header__btn2 {
+  width: 132px;
+  height: 43px;
+  top: 19px;
+  left: 964px;
+  border-radius: 5px;
+  border: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+  background: #02897a;
+  margin-left: 25px;
+}
+body header .header__img {
+  width: 32px;
+  height: 32px;
+  top: 24px;
+  left: 1224px;
+  padding: 4px;
+  border-radius: 100px;
+  margin-left: 20px;
+}
+body header .header__img2 {
+  display: none;
+}
+@media (max-width: 1300px) {
+  body header {
+    padding: 20px 20px;
+  }
+  body header .header__nav {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 850px) {
+  body header {
+    padding: 20px 100px;
+  }
+  body header .header__nav {
+    display: none;
+  }
+  body header .header__btn {
+    display: none;
+  }
+  body header .header__btn2 {
+    display: none;
+  }
+  body header .header__img {
+    display: none;
+  }
+  body header .header__img2 {
+    display: block;
+    width: 25px;
+    margin-left: 450px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 850px) {
+  body header {
+    padding: 20px 40px;
+  }
+  body header .header__img2 {
+    display: block;
+    width: 25px;
+    margin-left: 350px;
+    margin-top: 0;
+    margin-right: 40px;
+  }
+}
+body main {
+  padding: 0 160px;
+}/*# sourceMappingURL=style.css.map */
