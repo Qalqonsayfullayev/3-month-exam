@@ -220,7 +220,6 @@ body .main .pricing .pricing-father {
   gap: 50px;
   margin-top: 100px;
   align-items: center;
-  justify-content: start;
 }
 body .main .pricing .pricing-father .pricing-child {
   width: 300px;
@@ -228,6 +227,8 @@ body .main .pricing .pricing-father .pricing-child {
   border-radius: 8px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2509803922);
   background: #ffffff;
+  text-align: start;
+  justify-content: center;
   text-align: center;
 }
 body .main .pricing .pricing-father .pricing-child2 {

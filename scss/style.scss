@@ -240,7 +240,7 @@ body {
         gap: 50px;
         margin-top: 100px;
         align-items: center;
-        justify-content: start;
+        
 
         .pricing-child {
           width: 300px;
@@ -248,6 +248,8 @@ body {
           border-radius: 8px;
           box-shadow: 0px 2px 8px 0px #00000040;
           background: #ffffff;
+          text-align: start;
+          justify-content: center;
           text-align: center;
         }
         .pricing-child2 {
